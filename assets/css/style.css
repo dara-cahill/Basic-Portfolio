@@ -25,25 +25,24 @@
 .name {
     background-color: coral;
     font-weight: bold;
-    font-size: 25px;
-    padding: 20px;
+    font-size: 30px;
+    padding: 15px;
     color: white;
-    width: 190px;
+    width: 180px;
+    margin-left: 20px;
+    float: left
 }
 .link {
     background-color: violet;
-    display: flex;
-    padding: 40px;
+    padding: 30px;
     float: right;
 }
 
 .link a {
     height: 100%;
-    display: table;
-    padding: 0px 20px;
+    /* display: table; */
+    padding: 0px 10px;
 }
 
-.content {
-   
-}
+
 
