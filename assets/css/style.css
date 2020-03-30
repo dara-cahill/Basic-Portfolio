@@ -30,18 +30,20 @@
     color: white;
     width: 190px;
 }
-.links {
+.link {
     background-color: violet;
     display: flex;
     padding: 40px;
+    float: right;
 }
 
-.links2 {
-    background-color: aquamarine;
-    padding: 20px
+.link a {
+    height: 100%;
+    display: table;
+    padding: 0px 20px;
 }
 
 .content {
-    align-items: center;
+   
 }
 
