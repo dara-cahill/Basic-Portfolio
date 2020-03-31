@@ -6,12 +6,12 @@
 }
 
 .header {
-    background-color: yellow;
+    background-color: white;
     width: 100%;
     height: 80px;
     display: block;
-    border: green;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 2px solid grey;
 }
 
 .inner-header {
@@ -19,29 +19,33 @@
     height: 80px;
     display: block;
     margin: 0 auto;
-    background-color: bisque;
 }
 
 .name {
-    background-color: coral;
+    background-color: #83b5a8;
     font-weight: bold;
     font-size: 30px;
     padding: 15px;
     color: white;
     width: 180px;
     margin-left: 20px;
+    margin-top: 15px;
     float: left
 }
 .link {
-    background-color: violet;
     padding: 30px;
+    margin-top: 20px;
     float: right;
+    /* border-bottom: 2px solid grey; */
 }
 
 .link a {
     height: 100%;
     padding: 0px 10px;
+    color:gray;
 }
-
+main{
+    clear: both
+}
 
 
