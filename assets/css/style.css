@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url();
+    background-image: url("../images/background.jpeg");
 }
 .header {
     background-color: white;
@@ -47,28 +47,33 @@ body {
     color:gray;
     position: relative;
 }
-main {
-    clear: both
-    width: 70%;
-    margin: 35%;
-    background-color: pink;
-    padding: 25px;
-}
 
 footer  {
     width: 100%;
     background-color: grey;
     bottom: 0;
     height: 50px;
-    position: absolute;
+    position: fixed;
     border-top: 8px solid #83b5a8; 
 }
 
 .content-container {
     width: 70%;
-    margin: 35%;
-    background-color: pink;
+    margin-top: 20px;
+    background-color: white;
+    border: gold;
+    border-bottom: 20px;
     padding: 25px;
-    position: absolute; */
-    /* flex: 0 0 auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    clear: both
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #83b5a8;
 }
