@@ -59,21 +59,32 @@ footer  {
 
 .content-container {
     width: 70%;
+    height: 500px;
     margin-top: 20px;
     background-color: white;
-    border: gold;
-    border-bottom: 20px;
     padding: 25px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
 }
 
-main {
-    clear: both
+p {
+    margin-left: 300px;
 }
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #83b5a8;
+    margin-bottom: 20px;
+}
+
+#image {
+    float: left;
+}
+
+.hline {
+    width: 80%;
+    height: 2px;
+    background: gray;
+    margin-bottom: 50px;;
 }
