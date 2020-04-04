@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url("../images/background.jpeg");
+    background-image: url("../images/White-Marble.jpeg");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -17,11 +17,11 @@ body {
     height: 80px;
     display: block;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    border-bottom: 2px solid grey;
+    border-bottom: 1.5px solid grey;
 }
 
 .inner-header {
-    width: 1000px;
+    width: 1050px;
     height: 80px;
     display: block;
     margin: 0 auto;
@@ -34,7 +34,6 @@ body {
     padding: 15px;
     color: white;
     width: 180px;
-    margin-left: 20px;
     margin-top: 15px;
     float: left
 }
@@ -62,7 +61,7 @@ footer  {
 
 .content-container {
     width: 70%;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 150px;
     background-color: white;
     padding: 25px;
@@ -83,7 +82,12 @@ h1 {
 }
 
 hr {
-    height: 2px;
+    height: 1.5px;
     background: gray;
     margin-bottom: 15px;
+}
+
+.message {
+    height: 50%;
+    width: 70%;
 }
