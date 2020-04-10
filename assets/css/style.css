@@ -81,6 +81,12 @@ h1 {
     margin-bottom: 20px;
 }
 
+.portfolio-img {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
 hr {
     height: 1.5px;
     background: gray;
